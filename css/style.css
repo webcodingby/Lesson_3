@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: 14px;
+    background: #FFFFFF;
+}
+
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title h1{
+    margin: 0;
+    padding-top: 106px;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.header-line {
+    width: 64px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-top: 2px solid #FF8B38;
+}
+
+.header-subtitle {
+    padding-bottom: 80px;
+    color: #86878B;
+}
+
+.section-work {
+    width: 100%;
+    padding-bottom: 102px;
+}
+
+.section-work-item {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 16px;
+}
+
+.section-img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+.lamp {
+    background: url("./../img/lamp.svg") center center no-repeat;
+}
+
+.keyboard {
+    background: url("./../img/keyboard.svg") center 15px no-repeat;
+}
+
+.lightning {
+    background: url("./../img/lightning.svg") center center no-repeat;
+}
+
+.section-title h2{
+    font-size: 20px;
+    color: #333333;
+}
+
+.section-paragraph p{
+    width: 350px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.main-footer {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+                url("./../img/bg_main-footer.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-title {
+    margin: 0;
+    padding-top: 76px;
+    padding-bottom: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.main-line {
+    width: 74px;
+    margin: 0 auto;
+    padding-bottom: 23px;
+    border-top: 2px solid #FFFFFF;
+}
+
+.main-subtitle {
+    padding-bottom: 33px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.main-button {
+    padding: 15px 33px 14px 31px;
+    margin-bottom: 63px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    outline: none;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.footer-icon {
+    width: 100%;
+    height: 100%;
+    padding-top: 38px;
+    padding-bottom: 15px;
+}
+
+.social-icon > i{
+    padding: 0 5px;
+    color: #CCCCCC;
+    font-size: 24px;
+}
+
+.social-icon > i:hover{
+    color: aqua;
+    text-shadow: 1px 1px 4px #FFFFFF;
+}
+
+.footer-copywrite span{
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
